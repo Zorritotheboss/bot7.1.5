@@ -1,6 +1,6 @@
 name: Manually Deploy to Heroku
 
-on: workflow_dispatc
+on: workflow_dispatch
 
 jobs:
   deploy:
@@ -15,6 +15,6 @@ jobs:
 .HEROKU_APP_NAME}}
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           usedocker: false
-          docker_heroku_process_type: we
+          docker_heroku_process_type: web
           stack: "heroku-20"
           region: "us"	  
