@@ -17,5 +17,4 @@ jobs:
           usedocker: false
           docker_heroku_process_type: we
           stack: "heroku-20"
-          region: "us"		  
-		  
+          region: "us"	  
